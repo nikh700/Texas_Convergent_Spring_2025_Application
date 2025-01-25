@@ -1,5 +1,5 @@
 # Texas Convergent Car Dealership
-Texas Convergent Used Car Dealership Website by Nikhil Kabra for the Spring 2025 Forge Application.
+Texas Convergent Used Car Dealership Website for the Spring 2025 Forge Application.
 
 Key Features:
 - Car Listing
