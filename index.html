@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convergent Car Dealership</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Convergent Car Dealership</h1>
+  </header>
+  <main>
+    <div class="search-and-filter">
+        <input
+          type="text"
+          id="search-bar"
+          placeholder="Search by make or model..."
+        />
+        <div class="price-filter">
+          <label for="price-range">Max Price: </label>
+          <span id="max-price-label">$50,000</span>
+          <input
+            type="range"
+            id="price-range"
+            min="0"
+            max="50000"
+            step="1000"
+            value="50000"
+          />
+        </div>
+      </div>
+      <div id="pagination-controls"></div>
+    <div id="cars-container" class="cars-container">
+      <p>Loading cars...</p>
+    </div>
+  </main>
+  <footer>
+    <p>Your go-to platform for buying used cars!</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
